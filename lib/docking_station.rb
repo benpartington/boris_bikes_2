@@ -1,3 +1,5 @@
+require_relative 'bike'
+
 class DockingStation
   def release_bike
   end
@@ -6,7 +8,4 @@ class DockingStation
   end 
 end
 
-class Bike
-  def working?
-  end
-end
+
